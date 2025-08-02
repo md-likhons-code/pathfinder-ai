@@ -56,6 +56,13 @@ header .container,
     max-width: 1404px;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 .header-wrapper {
     border: 1px solid #000;
     background-color: var(--color-black-bg);
@@ -850,6 +857,17 @@ form button:hover {
 
 .footer-links:nth-child(2) ul {
     margin-left: -20px;
+}
+
+.top-btn {
+    display: inline-block;
+    position: fixed;
+    right: 48px;
+    bottom: 48px;
+    padding: 24px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #73E3F3 0%, #1B9FFB 100%);
+    cursor: pointer;
 }
 
 

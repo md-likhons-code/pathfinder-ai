@@ -84,3 +84,20 @@ jQuery(document).ready(function() {
         $(".mobile-menu").slideToggle("slow");
     });
 });
+
+$(document).ready(function () {
+  const scrollBtn = $('.top-btn');
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      scrollBtn.fadeIn();
+    } else {
+      scrollBtn.fadeOut();
+    }
+  });
+
+  scrollBtn.click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 600); // smooth scroll
+    scrollBtn.fadeOut(); // hide button again
+  });
+});
