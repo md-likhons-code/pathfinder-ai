@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinder AI</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <header>
+        <div class="header-wrapper">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="">
+                        <img src="images/header-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="main-menu align-items-center">
+                    <nav>
+                        <ul class="d-flex align-items-center px-0 m-0">
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn">Get in Touch 
+                        <span class="ms-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="#222222"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+
+                <!-- mobile menu -->
+
+                <div class="mobile-menu-btn">
+                    <button class="menu-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                            <g clip-path="url(#clip0_23_1372)">
+                                <path d="M1 1H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 8H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 15H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_23_1372">
+                                <rect width="20" height="16" fill="white"/>
+                                </clipPath>
+                            </defs>                                     
+                        </svg>
+                    </button>
+                </div>
+
+                
+            </div>
+            <div class="mobile-menu">
+                <nav>
+                    <ul class="">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <button class="btn">Get in Touch 
+                    <span class="ms-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                            <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="#222222"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-area">
+            <div class="container">
+                <div class="col-md-9 col-xl-6">
+                    <h1>Outpace Competitors With AI Search Optimisation</h1>
+                    <p>We optimise sites for AI search with specialised AIO services. Our strategies position your pages as the preferred source for Gemini, ChatGPT and Perplexity. Every day you delay, competitors widen the gap in visibility and revenue.</p>
+                    <button class="btn">Join the Waitlist 
+                        <span class="ms-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="#222222"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="clients">
+            <div class="container text-center">
+                <p>Trusted by Australia’s Leading Brands</p>
+                <div class="logo-slider">
+                    <div class="logo-track">
+                        <img src="images/logo-1.png" alt="">
+                        <img src="images/logo-2.png" alt="">
+                        <img src="images/logo-3.png" alt="">
+                        <img src="images/logo-4.png" alt="">
+                        <img src="images/logo-5.png" alt="">
+                        <img src="images/logo-6.png" alt="">
+                        <img src="images/logo-7.png" alt="">
+                        <img src="images/logo-8.png" alt="">
+                        <img src="images/logo-9.png" alt="">
+                        <img src="images/logo-10.png" alt="">
+                        <img src="images/logo-11.png" alt="">
+                        <img src="images/logo-12.png" alt="">
+                        <img src="images/logo-13.png" alt="">
+                        <img src="images/logo-14.png" alt="">
+                        <img src="images/logo-15.png" alt="">
+                        <img src="images/logo-16.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="container">
+                <div class="service-title text-center">
+                    <span>Adapt or Vanish</span>
+                    <h2>Search Has Already Shifted. Act Before Its Too Late</h2>
+                    <p>AI search isn't coming - it’s here. Gemini, ChatGPT, and Perplexity are already answering millions of queries daily, often without sending users to traditional search results. Sites feeding these models clean, structured data are capturing disproportionate visibility now. Every day you wait, the gap widens. Your competitors are already moving. Don't get left behind.</p>
+                </div>
+
+                <div class="service-item row justify-content-center">
+                    <div class="col-md-3 service-box">
+                        <img src="images/gemini.png" alt="">
+                        <h3>Google Gemini Optimisation</h3>
+                        <p>Ensure your pages surface in Gemini AI Overviews and AI Mode results.</p>
+                    </div>
+                    <div class="col-md-3 service-box">
+                        <img src="images/perplexity.png" alt="">
+                        <h3>Perplexity Optimisation</h3>
+                        <p>Secure brand citations inside Perplexity answers and “Learn More” cards.</p>
+                    </div>
+                    <div class="col-md-3 service-box">
+                        <img src="images/chatgpt.png" alt="">
+                        <h3 class="pe-4">ChatGPT Optimisation</h3>
+                        <p>Feed ChatGPT fresh docs and schema so your site becomes an authoritative inline source.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-carousel">
+                <div class="logo-track">
+                    <img src="images/claude.png" alt="">
+                    <img src="images/deepseek.png" alt="">
+                    <img src="images/lama.png" alt="">
+                    <img src="images/copilot.png" alt="">
+                    <img src="images/amazon.png" alt="">
+                    <img src="images/you.png" alt="">
+                    <img src="images/brave.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="aio-services">
+            <div class="container">
+                <div class="aio-services-title text-center">
+                    <span>Full-Stack AI Control</span>
+                    <h2>AIO Services</h2>
+                </div>
+
+                <div class="swiper aio-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="images/card-1.svg" alt="">
+                                </div>
+                                <div class="card-title">
+                                    <h3>AIO Audits & Content Gap Mapping</h3>
+                                    <p>Roadmap of missing entities, media, and schema across your site.</p>
+                                    <button>Get Started 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0.5 6H12.087M6.15217 1L13.5 4.61111V7.38889L6.15217 11" stroke="#222222"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="images/card-2.svg" alt="">
+                                </div>
+                                <div class="card-title">
+                                    <h3>AI Citation Optimisation</h3>
+                                    <p class="pe-3">Raise the percentage of answers that attribute to your pages.</p>
+                                    <button>Get Started 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0.5 6H12.087M6.15217 1L13.5 4.61111V7.38889L6.15217 11" stroke="#222222"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="images/card-3.svg" alt="">
+                                </div>
+                                <div class="card-title">
+                                    <h3 class="pe-3">AI Bot Server Analysis</h3>
+                                    <p>og-file forensics on GPTBot, Google-Extended, ClaudeBot traffic.</p>
+                                    <button>Get Started 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0.5 6H12.087M6.15217 1L13.5 4.61111V7.38889L6.15217 11" stroke="#222222"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="images/card-4.svg" alt="">
+                                </div>
+                                <div class="card-title">
+                                    <h3>AI Brand Visibility Measurement</h3>
+                                    <p>Track impressions and citations across Gemini, ChatGPT, and Perplexity.</p>
+                                    <button>Get Started 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0.5 6H12.087M6.15217 1L13.5 4.61111V7.38889L6.15217 11" stroke="#222222"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="images/card-5.svg" alt="">
+                                </div>
+                                <div class="card-title">
+                                    <h3>Structured Data Optimisation</h3>
+                                    <p class="child-5">JSON-LD schemas that feed AI with perfect context.</p>
+                                    <button>Get Started 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0.5 6H12.087M6.15217 1L13.5 4.61111V7.38889L6.15217 11" stroke="#222222"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <img src="images/card-6.svg" alt="">
+                                </div>
+                                <div class="card-title">
+                                    <h3>Competitor Visibility Benchmarking</h3>
+                                    <p class="child-6">See exactly where rivals win AI snippets—and why.</p>
+                                    <button>Get Started 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0.5 6H12.087M6.15217 1L13.5 4.61111V7.38889L6.15217 11" stroke="#222222"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="container">
+                <div class="testimonial-title text-center">
+                    <span>Our Edge</span>
+                    <h2>Why Pathfinder?</h2>
+                </div>
+                <div class="counters">
+                    <div class="counter-item col-xl-3 col-md-6 col-sm-12">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" fill="none">
+                                <path d="M4 3L0 6V0L4 3Z" fill="#1B9FFB"/>
+                            </svg> AIO Pioneers
+                        </span>
+                        <h2>2016</h2>
+                        <p>Est. 2016. Early AI Innovators</p>
+                    </div>
+                    <div class="counter-item col-xl-3 col-md-6 col-sm-12">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" fill="none">
+                                <path d="M4 3L0 6V0L4 3Z" fill="#1B9FFB"/>
+                            </svg> Total Lead Gen
+                        </span>
+                        <h2>$4.2M</h2>
+                        <p>Total Conversions Generated</p>
+                    </div>
+                    <div class="counter-item col-xl-3 col-md-6 col-sm-12">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" fill="none">
+                                <path d="M4 3L0 6V0L4 3Z" fill="#1B9FFB"/>
+                            </svg> Happy Clients
+                        </span>
+                        <h2>96%</h2>
+                        <p>Client Retention Rate over the last 5 years</p>
+                    </div>
+                    <div class="counter-item col-xl-3 col-md-6 col-sm-12">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="6" viewBox="0 0 4 6" fill="none">
+                                <path d="M4 3L0 6V0L4 3Z" fill="#1B9FFB"/>
+                            </svg> Industries
+                        </span>
+                        <h2>87+</h2>
+                        <p>Industries Served</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="process">
+            <div class="container">
+                <div class="process-wrapper">
+                    <div class="process-title col-md-7">
+                        <h2>Our Process – How We Forge Your AI Traffic Engine</h2>
+                    </div>
+                    <div class="process-card">
+                        <div class="card-item">
+                            <div class="card-text col-xl-6 col-lg-7">
+                                <div class="card-number">04</div>
+                                <div class="card-title">
+                                    <h3>Continuous Scale</h3>
+                                    <p>Track live AI citations and traffic, iterate weekly and expand wins—all tied back to margin, CAC and revenue targets.</p>
+                                    <button>Join the Waitlist 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-image col-xl-5 col-lg-5">
+                                <img src="images/card-img-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <div class="card-text col-xl-6 col-lg-7">
+                                <div class="card-number">03</div>
+                                <div class="card-title">
+                                    <h3>Implementation</h3>
+                                    <p>Add schema, optimise content, and fine-tune language-model feeds so your pages become the preferred source across AI platforms.</p>
+                                    <button>Join the Waitlist 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-image col-xl-5 col-lg-5">
+                                <img src="images/card-img-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <div class="card-text col-xl-6 col-lg-7">
+                                <div class="card-number">02</div>
+                                <div class="card-title">
+                                    <h3>Visibility Scan</h3>
+                                    <p>Identify where you already appear in AI answers, where competitors outrank you and which pages need structured data or multimodal upgrades.</p>
+                                    <button>Join the Waitlist 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-image col-xl-5 col-lg-5">
+                                <img src="images/card-img-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-item">
+                            <div class="card-text col-xl-6 col-lg-7">
+                                <div class="card-number">01</div>
+                                <div class="card-title">
+                                    <h3>AI Audit</h3>
+                                    <p>Scan your site’s code, content and server logs to see how Gemini, ChatGPT and Perplexity actually crawl, index and cite you.</p>
+                                    <button>Join the Waitlist 
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-image col-xl-5 col-lg-5">
+                                <img src="images/card-img-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team">
+            <div class="container">
+                <div class="team-title text-center">
+                    <span>Our Growth Architects</span>
+                    <h2>Meet Our AI Specialists</h2>
+                </div>
+                <div class="swiper team-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img src="images/team-member-1.png" alt="">
+                                </div>
+                                <div class="team-member-info">
+                                    <h3>Dave Toby</h3>
+                                    <p>Director & Co-founder</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img src="images/team-member-2.png" alt="">
+                                </div>
+                                <div class="team-member-info">
+                                    <h3>Mitchell Kelly</h3>
+                                    <p>Director & Co-founder</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img src="images/team-member-3.png" alt="">
+                                </div>
+                                <div class="team-member-info">
+                                    <h3>Ollie Hewson</h3>
+                                    <p>Performance AI Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img src="images/team-member-4.png" alt="">
+                                </div>
+                                <div class="team-member-info">
+                                    <h3>Mauricio Tolero</h3>
+                                    <p>AIO Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img src="images/team-member-5.png" alt="">
+                                </div>
+                                <div class="team-member-info">
+                                    <h3>Nick Stewart</h3>
+                                    <p>Automation Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img src="images/team-member-6.png" alt="">
+                                </div>
+                                <div class="team-member-info">
+                                    <h3>Lily Atkinson</h3>
+                                    <p>Performance AI Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="growth">
+            <div class="container">
+                <div class="growth-title">
+                    <span>AI Automations To Save Time & Grow Your Business</span>
+                    <h2>+1,400% Growth in Six Months</h2>
+                </div>
+                <div class="swiper growth-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="growth-content">
+                                <div class="growth-item">
+                                    <div class="growth-card col-xl-6 col-lg-7">
+                                        <div class="card-number">01</div>
+                                        <div class="card-title">
+                                            <h3>Local-to-National Leap: 5× Traffic & 2.6× Revenue</h3>
+                                            <p>By scaling Little Shop’s SEO from local to national reach, we delivered rapid gains—traffic jumped 60 % in just two months. Over the next year that growth compounded to 5× traffic and 2.6× revenue. With the new strategy fully in play, forecasts now put revenue on track to triple by the end of 2024.</p>
+                                            <button>Read more about this case study 
+                                                <span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                        <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="#222"/>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-image col-xl-5 col-lg-5">
+                                        <img src="images/process-1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="growth-content">
+                                <div class="growth-item">
+                                    <div class="growth-card col-xl-6 col-lg-7">
+                                        <div class="card-number">02</div>
+                                        <div class="card-title">
+                                            <h3>$60K Profit. 3X Revenue. 2 Months.</h3>
+                                            <p>By scaling Little Shop’s SEO from local to national reach, we delivered rapid gains—traffic jumped 60 % in just two months. Over the next year that growth compounded to 5× traffic and 2.6× revenue. With the new strategy fully in play, forecasts now put revenue on track to triple by the end of 2024.Avenue Hampers experienced an impressive 63% increase in traffic within a mere 2 months! As well as a 2.33X in traffic Year-on-Year and an outstanding 2.93X in revenue during Dec 2023 compared to previous year (Dec 2022) which resulted in a $60K profit!</p>
+                                            <button>Read more about this case study 
+                                                <span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                        <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="#222"/>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-image col-xl-5 col-lg-5">
+                                        <img src="images/process-2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="growth-content">
+                                <div class="growth-item">
+                                    <div class="growth-card col-xl-6 col-lg-7">
+                                        <div class="card-number">03</div>
+                                        <div class="card-title">
+                                            <h3>40 New Categories, 75% Traffic Surge in 30 Days</h3>
+                                            <p>Pathfinder audited Elite Pool Covers’ online presence, delivered rapid SEO gains on the current site, and prepared a smooth migration to Commerce Vision. Rebuilt categories, products, and navigation have already lifted rankings and UX, with the new site launching soon.</p>
+                                            <button>Read more about this case study 
+                                                <span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                                        <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="#222"/>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="card-image col-xl-5 col-lg-5">
+                                        <img src="images/process-3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-carousel">
+            <div class="container">
+                <div class="testimonial-carousel-title text-center">
+                    <span>What Our Customers Feel About Our Services</span>
+                    <h2>What Our Clients Say</h2>
+                </div>
+            </div>
+            <div class="testimonial-carousel-wrapper">
+                <div class="swiper testimonial-carousel-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="images/andrew.png" alt="">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>We've been working with Pathfinder Marketing on our SEO for under a year, and they’ve already ranked us in the top 5 positions on Google for our most competitive keywords...</p>
+                                    <div class="rating">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                                                <path d="M7.03834 1.10997C7.20914 0.699319 7.79086 0.699318 7.96166 1.10996L9.49874 4.80556C9.57075 4.97868 9.73355 5.09696 9.92045 5.11194L13.9102 5.4318C14.3535 5.46734 14.5332 6.02059 14.1955 6.30993L11.1557 8.91378C11.0133 9.03576 10.9512 9.22715 10.9947 9.40952L11.9234 13.3028C12.0265 13.7354 11.5559 14.0773 11.1764 13.8455L7.76063 11.7592C7.60062 11.6615 7.39938 11.6615 7.23937 11.7592L3.82363 13.8455C3.44408 14.0773 2.97345 13.7354 3.07665 13.3028L4.00534 9.40952C4.04884 9.22715 3.98665 9.03576 3.84426 8.91378L0.804527 6.30993C0.466758 6.02059 0.64652 5.46734 1.08985 5.4318L5.07955 5.11194C5.26645 5.09696 5.42925 4.97868 5.50126 4.80556L7.03834 1.10997Z" fill="#FFAA00"/>
+                                            </svg>
+                                            5.0
+                                        </span>
+                                    </div>
+                                    <div class="info">
+                                        <h4>Andrew Kirkwood</h4>
+                                        <span>2025.06.10</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" fill="none">
+                                        <path d="M28 32H40C42.2057 32 44 30.2057 44 28V16C44 13.7943 42.2057 12 40 12H34.6178L36.6419 1.58789C36.7181 1.19661 36.6152 0.792318 36.362 0.485025C36.1087 0.177732 35.7318 0 35.3333 0H31.0137C29.8542 0 28.8236 0.758467 28.4727 1.85677L24.5911 11.0638C24.569 11.1165 24.5501 11.1706 24.5352 11.2253C24.1797 12.5026 24 13.8236 24 15.151V28C24 30.2057 25.7943 32 28 32Z" fill="#EAEAEA"/>
+                                        <path d="M4 32H16C18.2057 32 20 30.2057 20 28V16C20 13.7943 18.2057 12 16 12H10.6172L12.6419 1.58789C12.7187 1.19661 12.6159 0.792318 12.362 0.485025C12.1094 0.177732 11.7318 0 11.3333 0H7.01303C5.85287 0 4.82292 0.758467 4.47267 1.85743L0.59116 11.0638C0.569027 11.1165 0.5508 11.1706 0.535173 11.2253C0.179693 12.5039 0 13.8249 0 15.151V28C0 30.2057 1.79427 32 4 32Z" fill="#EAEAEA"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="images/jason.png" alt="">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p class="nth-child-2">Ollie Dave and Mitch have been great to work with. highly recommended for their customer service and their expertise.</p>
+                                    <div class="rating">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                                                <path d="M7.03834 1.10997C7.20914 0.699319 7.79086 0.699318 7.96166 1.10996L9.49874 4.80556C9.57075 4.97868 9.73355 5.09696 9.92045 5.11194L13.9102 5.4318C14.3535 5.46734 14.5332 6.02059 14.1955 6.30993L11.1557 8.91378C11.0133 9.03576 10.9512 9.22715 10.9947 9.40952L11.9234 13.3028C12.0265 13.7354 11.5559 14.0773 11.1764 13.8455L7.76063 11.7592C7.60062 11.6615 7.39938 11.6615 7.23937 11.7592L3.82363 13.8455C3.44408 14.0773 2.97345 13.7354 3.07665 13.3028L4.00534 9.40952C4.04884 9.22715 3.98665 9.03576 3.84426 8.91378L0.804527 6.30993C0.466758 6.02059 0.64652 5.46734 1.08985 5.4318L5.07955 5.11194C5.26645 5.09696 5.42925 4.97868 5.50126 4.80556L7.03834 1.10997Z" fill="#FFAA00"/>
+                                            </svg>
+                                            5.0
+                                        </span>
+                                    </div>
+                                    <div class="info">
+                                        <h4>Jason Cohen</h4>
+                                        <span>2025.05.06</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" fill="none">
+                                        <path d="M28 32H40C42.2057 32 44 30.2057 44 28V16C44 13.7943 42.2057 12 40 12H34.6178L36.6419 1.58789C36.7181 1.19661 36.6152 0.792318 36.362 0.485025C36.1087 0.177732 35.7318 0 35.3333 0H31.0137C29.8542 0 28.8236 0.758467 28.4727 1.85677L24.5911 11.0638C24.569 11.1165 24.5501 11.1706 24.5352 11.2253C24.1797 12.5026 24 13.8236 24 15.151V28C24 30.2057 25.7943 32 28 32Z" fill="#EAEAEA"/>
+                                        <path d="M4 32H16C18.2057 32 20 30.2057 20 28V16C20 13.7943 18.2057 12 16 12H10.6172L12.6419 1.58789C12.7187 1.19661 12.6159 0.792318 12.362 0.485025C12.1094 0.177732 11.7318 0 11.3333 0H7.01303C5.85287 0 4.82292 0.758467 4.47267 1.85743L0.59116 11.0638C0.569027 11.1165 0.5508 11.1706 0.535173 11.2253C0.179693 12.5039 0 13.8249 0 15.151V28C0 30.2057 1.79427 32 4 32Z" fill="#EAEAEA"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="images/tom.png" alt="">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>We've been using Pathfinder for almost a year now, In that time they have managed our SEO, Google & Facebook Ads and we have seen a 70% increase in organic traffic!!...</p>
+                                    <div class="rating">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                                                <path d="M7.03834 1.10997C7.20914 0.699319 7.79086 0.699318 7.96166 1.10996L9.49874 4.80556C9.57075 4.97868 9.73355 5.09696 9.92045 5.11194L13.9102 5.4318C14.3535 5.46734 14.5332 6.02059 14.1955 6.30993L11.1557 8.91378C11.0133 9.03576 10.9512 9.22715 10.9947 9.40952L11.9234 13.3028C12.0265 13.7354 11.5559 14.0773 11.1764 13.8455L7.76063 11.7592C7.60062 11.6615 7.39938 11.6615 7.23937 11.7592L3.82363 13.8455C3.44408 14.0773 2.97345 13.7354 3.07665 13.3028L4.00534 9.40952C4.04884 9.22715 3.98665 9.03576 3.84426 8.91378L0.804527 6.30993C0.466758 6.02059 0.64652 5.46734 1.08985 5.4318L5.07955 5.11194C5.26645 5.09696 5.42925 4.97868 5.50126 4.80556L7.03834 1.10997Z" fill="#FFAA00"/>
+                                            </svg>
+                                            5.0
+                                        </span>
+                                    </div>
+                                    <div class="info">
+                                        <h4>Tom Malone</h4>
+                                        <span>2025.05.02</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" fill="none">
+                                        <path d="M28 32H40C42.2057 32 44 30.2057 44 28V16C44 13.7943 42.2057 12 40 12H34.6178L36.6419 1.58789C36.7181 1.19661 36.6152 0.792318 36.362 0.485025C36.1087 0.177732 35.7318 0 35.3333 0H31.0137C29.8542 0 28.8236 0.758467 28.4727 1.85677L24.5911 11.0638C24.569 11.1165 24.5501 11.1706 24.5352 11.2253C24.1797 12.5026 24 13.8236 24 15.151V28C24 30.2057 25.7943 32 28 32Z" fill="#EAEAEA"/>
+                                        <path d="M4 32H16C18.2057 32 20 30.2057 20 28V16C20 13.7943 18.2057 12 16 12H10.6172L12.6419 1.58789C12.7187 1.19661 12.6159 0.792318 12.362 0.485025C12.1094 0.177732 11.7318 0 11.3333 0H7.01303C5.85287 0 4.82292 0.758467 4.47267 1.85743L0.59116 11.0638C0.569027 11.1165 0.5508 11.1706 0.535173 11.2253C0.179693 12.5039 0 13.8249 0 15.151V28C0 30.2057 1.79427 32 4 32Z" fill="#EAEAEA"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="images/douglas.png" alt="">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p class="nth-child-4">Ollie has been a game-changer for our lead generation. He helped us with LinkedIn Ad campaigns with some lead magnets - got a few leads within days.</p>
+                                    <div class="rating">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                                                <path d="M7.03834 1.10997C7.20914 0.699319 7.79086 0.699318 7.96166 1.10996L9.49874 4.80556C9.57075 4.97868 9.73355 5.09696 9.92045 5.11194L13.9102 5.4318C14.3535 5.46734 14.5332 6.02059 14.1955 6.30993L11.1557 8.91378C11.0133 9.03576 10.9512 9.22715 10.9947 9.40952L11.9234 13.3028C12.0265 13.7354 11.5559 14.0773 11.1764 13.8455L7.76063 11.7592C7.60062 11.6615 7.39938 11.6615 7.23937 11.7592L3.82363 13.8455C3.44408 14.0773 2.97345 13.7354 3.07665 13.3028L4.00534 9.40952C4.04884 9.22715 3.98665 9.03576 3.84426 8.91378L0.804527 6.30993C0.466758 6.02059 0.64652 5.46734 1.08985 5.4318L5.07955 5.11194C5.26645 5.09696 5.42925 4.97868 5.50126 4.80556L7.03834 1.10997Z" fill="#FFAA00"/>
+                                            </svg>
+                                            5.0
+                                        </span>
+                                    </div>
+                                    <div class="info">
+                                        <h4>Douglas Robertson</h4>
+                                        <span>2025.03.10</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" fill="none">
+                                        <path d="M28 32H40C42.2057 32 44 30.2057 44 28V16C44 13.7943 42.2057 12 40 12H34.6178L36.6419 1.58789C36.7181 1.19661 36.6152 0.792318 36.362 0.485025C36.1087 0.177732 35.7318 0 35.3333 0H31.0137C29.8542 0 28.8236 0.758467 28.4727 1.85677L24.5911 11.0638C24.569 11.1165 24.5501 11.1706 24.5352 11.2253C24.1797 12.5026 24 13.8236 24 15.151V28C24 30.2057 25.7943 32 28 32Z" fill="#EAEAEA"/>
+                                        <path d="M4 32H16C18.2057 32 20 30.2057 20 28V16C20 13.7943 18.2057 12 16 12H10.6172L12.6419 1.58789C12.7187 1.19661 12.6159 0.792318 12.362 0.485025C12.1094 0.177732 11.7318 0 11.3333 0H7.01303C5.85287 0 4.82292 0.758467 4.47267 1.85743L0.59116 11.0638C0.569027 11.1165 0.5508 11.1706 0.535173 11.2253C0.179693 12.5039 0 13.8249 0 15.151V28C0 30.2057 1.79427 32 4 32Z" fill="#EAEAEA"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="images/andrew.png" alt="">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p>We've been working with Pathfinder Marketing on our SEO for under a year, and they’ve already ranked us in the top 5 positions on Google for our most competitive keywords...</p>
+                                    <div class="rating">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                                                <path d="M7.03834 1.10997C7.20914 0.699319 7.79086 0.699318 7.96166 1.10996L9.49874 4.80556C9.57075 4.97868 9.73355 5.09696 9.92045 5.11194L13.9102 5.4318C14.3535 5.46734 14.5332 6.02059 14.1955 6.30993L11.1557 8.91378C11.0133 9.03576 10.9512 9.22715 10.9947 9.40952L11.9234 13.3028C12.0265 13.7354 11.5559 14.0773 11.1764 13.8455L7.76063 11.7592C7.60062 11.6615 7.39938 11.6615 7.23937 11.7592L3.82363 13.8455C3.44408 14.0773 2.97345 13.7354 3.07665 13.3028L4.00534 9.40952C4.04884 9.22715 3.98665 9.03576 3.84426 8.91378L0.804527 6.30993C0.466758 6.02059 0.64652 5.46734 1.08985 5.4318L5.07955 5.11194C5.26645 5.09696 5.42925 4.97868 5.50126 4.80556L7.03834 1.10997Z" fill="#FFAA00"/>
+                                            </svg>
+                                            5.0
+                                        </span>
+                                    </div>
+                                    <div class="info">
+                                        <h4>Andrew Kirkwood</h4>
+                                        <span>2025.06.10</span>
+                                    </div>
+                                </div>
+                                <div class="quote-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" fill="none">
+                                        <path d="M28 32H40C42.2057 32 44 30.2057 44 28V16C44 13.7943 42.2057 12 40 12H34.6178L36.6419 1.58789C36.7181 1.19661 36.6152 0.792318 36.362 0.485025C36.1087 0.177732 35.7318 0 35.3333 0H31.0137C29.8542 0 28.8236 0.758467 28.4727 1.85677L24.5911 11.0638C24.569 11.1165 24.5501 11.1706 24.5352 11.2253C24.1797 12.5026 24 13.8236 24 15.151V28C24 30.2057 25.7943 32 28 32Z" fill="#EAEAEA"/>
+                                        <path d="M4 32H16C18.2057 32 20 30.2057 20 28V16C20 13.7943 18.2057 12 16 12H10.6172L12.6419 1.58789C12.7187 1.19661 12.6159 0.792318 12.362 0.485025C12.1094 0.177732 11.7318 0 11.3333 0H7.01303C5.85287 0 4.82292 0.758467 4.47267 1.85743L0.59116 11.0638C0.569027 11.1165 0.5508 11.1706 0.535173 11.2253C0.179693 12.5039 0 13.8249 0 15.151V28C0 30.2057 1.79427 32 4 32Z" fill="#EAEAEA"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="score-pagination">
+                    <div class="image-container">
+                        <div class="d-flex align-items-center">
+                            <img src="images/round-image-1.png" alt="">
+                            <img class="margin-left" src="images/round-image-2.png" alt="">
+                            <img class="margin-left" src="images/round-image-3.png" alt="">
+                        </div>
+                        <p>5/5 score based on 45 customer satisfaction surveys</p>
+                    </div>
+                    <div class="buttons">
+                        <div class="prev-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
+                                <path d="M8 0.800001L7.56041 0L-9.53674e-07 4.8V7.2L0.864456 7.74885V5.33334L8 0.800001Z" fill="#222222"/>
+                                <path d="M7.56041 12L8 11.2L1.70394 7.2V8.2818L7.56041 12Z" fill="#222222"/>
+                            </svg>
+                        </div>
+                        <div class="next-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
+                                <path d="M0 0.800001L0.43959 0L8 4.8V7.2L7.13554 7.74885V5.33334L0 0.800001Z" fill="#222222"/>
+                                <path d="M0.439592 12L0 11.2L6.29606 7.2V8.2818L0.439592 12Z" fill="#222222"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6769.21490374917!2d115.81114116556044!3d-31.971544574921484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32b11facd0693d%3A0x761e572f0b45b13a!2sPathfinder%20Marketing!5e0!3m2!1sen!2sbd!4v1754115187606!5m2!1sen!2sbd" width="100%" height="290" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="contact-form">
+                    <div class="contact-form-title">
+                        <h3>Apply To Work With Us</h3>
+                        <p>Just fill out the form and our we’ll be in touch right away</p>
+                    </div>
+                    <form action="">
+                        <div class="d-flex justify-content-between gap-4 mb-4">
+                            <input type="text" placeholder="Your Name">
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div class="d-flex justify-content-between gap-4 mb-4">
+                            <input type="text" placeholder="Company Name">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-4">
+                            <select name="services" id="">
+                                <option value="" disabled selected>Service</option>
+                                <option value="service1">Service 1</option>
+                                <option value="service2">Service 2</option>
+                                <option value="service3">Service 3</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <textarea name="message" id="" cols="30" rows="3" placeholder="Kindly provide enough information about your business..."></textarea>
+                        </div>
+                        <button type="button">Join The Waitlist 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                <path d="M0.5 6H12.087M6.15217 1L13.5 4.61111V7.38889L6.15217 11" stroke="black"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <a href=""><img src="images/footer-logo.png" alt=""></a>
+                    </div>
+                    <div class="footer-links">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                        <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                    </svg>
+                                </span> 
+                                About Us</a></li>
+                            <li><a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                        <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                    </svg>
+                                </span>
+                                Meet the Team</a></li>
+                            <li><a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                        <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                    </svg>
+                                </span>
+                                Case Studies</a></li>
+                            <li><a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                                        <path d="M0 6H11.587M5.65217 1L13 4.61111V7.38889L5.65217 11" stroke="white"/>
+                                    </svg>
+                                </span>
+                                Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">AI Brand Visibility Measurement</a></li>
+                            <li><a href="#">AI Bot Server Analysis</a></li>
+                            <li><a href="#">Structured Data Optimisation</a></li>
+                            <li><a href="#">Competitor Visibility Benchmarking</a></li>
+                            <li><a href="#">AI Citation Optimisation</a></li>
+                            <li><a href="#">AIO Audits & Content Gap Mapping</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="copy-text">
+                    <p>©2025 Pathfinder Marketing, All Rights Reserved. <a href="">pathfindermarketing.ai</a></p>
+                    <p><a href="">Terms & Conditions</a>   -   <a href="">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
