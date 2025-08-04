@@ -1,46 +1,32 @@
 let swiper = new Swiper(".aio-swiper", {
     slidesPerView: 1,
-    spaceBetween: 36,
+    spaceBetween: 30,
     loop: true,
     freeMode: true,
-    autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-    },
     breakpoints: {
-        575.98: {
-            slidesPerView: 1.4
-        },
         767.98: {
-            slidesPerView: 2.3
-        },
-        991.98: {
-            slidesPerView: 3
+            slidesPerView: 2
         },
         1199.98: {
-            slidesPerView: 3.8
+            slidesPerView: 3
         }
     }
 });
 
 let swiper2 = new Swiper(".team-carousel", {
-    slidesPerView: 1.3,
+    slidesPerView: 1,
     spaceBetween: 50,
     loop: true,
     freeMode: true,
-    autoplay: {
-        delay: 2000,
-        disableOnInteraction: false
-    },
     breakpoints: {
         575.98: {
             slidesPerView: 2
         },
-        767.98: {
+        991.98: {
             slidesPerView: 3
         },
-        991.98: {
-            slidesPerView: 3.8
+        1199.98: {
+            slidesPerView: 4
         }
     }
 });

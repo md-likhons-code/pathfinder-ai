@@ -46,14 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    max-width: 1280px;
-}
-
-header .container, 
-.hero-area .container, 
-.services .container, 
-.aio-services .container{
-    max-width: 1404px;
+    max-width: 1328px;
+    padding: 0 24px;
 }
 
 header {
@@ -139,6 +133,7 @@ header {
     padding: 16px 20px;
     border-radius: 6px;
     transition: all 0.3s ease;
+    line-height: 1;
 }
 
 .btn:hover {
@@ -291,12 +286,11 @@ max-height: 87px;
 }
 
 .aio-services {
-    overflow: hidden;
     margin-bottom: 29px;
 }
 
 .service-card {
-    padding: 48px;
+    padding: 32px 24px;
     border-radius: 12px;
     box-shadow: 0 4px 24px 0 rgba(27, 26, 26, 0.06);
 }
@@ -330,11 +324,11 @@ max-height: 87px;
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    line-height: 1;
 }
 
 .aio-swiper {
-    padding: 48px 0;
-    overflow: visible;
+    padding: 16px;
 }
 
 p.child-5, 
@@ -485,7 +479,7 @@ p.child-6 {
 }
 
 .card-text .card-title button {
-    padding: 24px 32px;
+    padding: 16px 20px;
     background-color: var(--color-black-bg);
     border: 2px solid var(--color-button-border);
     color: var(--color-white-color);
@@ -504,7 +498,6 @@ p.child-6 {
 .team {
     padding-top: 128px;
     padding-bottom: 40px;
-    overflow: hidden;
 }
 
 .team-member-info {
@@ -525,9 +518,6 @@ p.child-6 {
     color: var(--color-secondary-text);
 }
 
-.team-carousel {
-    overflow: visible;
-}
 
 .team-member-image:hover {
     background: linear-gradient(180deg, #73E3F3 0%, #1B9FFB 100%);
@@ -860,14 +850,18 @@ form button:hover {
 }
 
 .top-btn {
-    display: inline-block;
+    display: inline-grid;
+    place-items: center;
+    z-index: 1000;
     position: fixed;
     right: 35px;
     bottom: 35px;
-    padding: 24px;
+    height: 58px;
+    width: 58px;
     border-radius: 50%;
     background: linear-gradient(180deg, #73E3F3 0%, #1B9FFB 100%);
     cursor: pointer;
+    line-height: 1;
 }
 
 
