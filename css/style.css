@@ -864,6 +864,12 @@ form button:hover {
     line-height: 1;
 }
 
+#about-page, 
+#services-page, 
+#blog-page, 
+#contact-page {
+  scroll-margin-top: 100px; /* Adjust this value based on your menu height */
+}
 
 /* Responsive Styles */
 
